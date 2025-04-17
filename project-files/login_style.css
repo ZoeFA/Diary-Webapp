@@ -1,0 +1,118 @@
+@font-face{
+  font-family: 'WritingFont';
+  src: url(Handwriting-poxD.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  color: grey;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'WritingFont', sans-serif;
+  background-color: #F5CAC3;
+  color: grey;
+
+}
+
+h1{
+  font-family: 'WritingFont', serif;
+}
+
+
+/*styling of the outer container to center the content*/
+#content {
+  width: 50%;
+  margin: 50px auto;
+  padding: 40px;
+  background-color: #A2C3A4;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+/*Logo image styling*/
+#logo {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+  /*max-width: 1000px;*/
+}
+
+/*Styling for the thick left and right margin
+body::before, body::after{
+  content: "";
+  display: block;
+  position: fixed;
+  top: 0;
+  bottom:0;
+  width: 20%;
+  background-color: #F5CAC3;
+  z-index: -1;
+}
+
+body::before{
+  left:0;
+}
+
+body::after{
+  right:0;
+}
+*/
+/*styling form elements*/
+form{
+  text-align: center;
+}
+
+form label{
+  font-size: 1.5em;
+  color: #333;
+  
+}
+
+form input[type="text"], form input[type="password"]{
+  width: 40%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: url('fountain pen handwriting.cur'), pointer;
+}
+
+form button{
+  background-color: #7871AA;
+  color: white;
+  padding: 20px 40px;
+  font-size: 1.1em;
+  border: none;
+  border-radius: 8px;
+  text-transform: uppercase; /* Optional: For button text in uppercase */
+  font-weight: bold; /* Optional: For bold text */
+  cursor: url('fountain pen handwriting.cur'), pointer;
+  font-family: 'WritingFont', serif;
+}
+
+form button:hover{
+  background-color: 357ABD;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+  cursor: url('fountain pen handwriting.cur'), pointer;
+  font-size: 1.2em;
+}
+a:hover{
+  text-decoration: underline;
+}
+
+footer {
+  font-size: 1em;
+  color: red;
+  font-family: 'WritingFont', sans-serif;
+}
+
+body{ /*custom cursor*/
+  cursor: url('fountain pen handwriting.cur'), auto;
+
+}

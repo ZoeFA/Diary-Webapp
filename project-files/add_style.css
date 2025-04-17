@@ -1,0 +1,76 @@
+@font-face{
+  font-family: 'WritingFont';
+  src: url(Handwriting-poxD.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'WritingFont', sans-serif;
+  background-color: rgba(120, 113, 170, 1.0);
+  background-image: url('paper-texture.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-blend-mode: overlay;
+  text-align: center;
+  cursor: url('fountain pen handwriting.cur'), auto;
+
+}
+header{
+  color: darkblue;
+  
+}
+
+h1{
+  font-size: 40px;
+}
+h2{
+  font-size: 35px;
+}
+
+p{
+  font-size: 30px;
+  line-height: 1.5;
+  color: darkblue;
+  margin-left: 15%;
+  margin-right: 10%;
+  text-align: justify;
+}
+
+footer p{
+  color: red;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+a{
+  position: absolute;
+  top: 20px; 
+  left: 20px;
+  font-size: 35px;
+  font-weight: bold;
+  color: darkblue;
+}
+
+
+.custom-post-button{
+  display: inline-block;
+  padding: 20px 40px;
+  background-color: #00e35c;
+  color: white;
+  border: none;
+  border-radius: 99px;
+  cursor: url('fountain pen handwriting.cur'), pointer;
+  font-family: 'WritingFont', sans-serif;
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.custom-post-button:hover{
+  background-color: #00a135;
+}
